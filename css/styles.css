@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+section {
+	padding: 40px 0;
+}
+
+
+/* Custom Classes and IDs */
+#about {
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 275px;
+	padding-top: 75px;
+}
+	#about p {
+		font-size: 1.5em;
+	}
+
+#contact {
+	background: #03A9F4;
+	color: #FFFFFF;
+}
+
+#skills {
+	border-bottom: 2px solid #BDBDBD;
+}
+
+#skills .description, #portfolio .description {
+	color: #757575;
+	font-size: 1.1em;
+}
+
+.brand-logo {
+	height: 64px;
+	margin-bottom: 10px;
+}
+
+.contact-container {
+	margin-bottom: 40px;
+}
+	.contact-container a {
+		color: #FFFFFF;
+	}
+	.contact-icon {
+		font-size: 128px;
+	}
+
+
+.project-container {
+	position: relative;
+	margin-bottom: 40px;
+	margin-left: none;
+	visibility: hidden;
+	width: 300px;
+}
+	.project-container .overlay {
+		position: absolute;
+		background: #B3E5FC;
+		display: none;
+		height: 220px;
+		left: 0;
+		top: 40px;
+		width: 100%;
+	}
+		.overlay a {
+			color: #FFFFFF;
+		}
+		.overlay .project-navigation {
+			line-height: 220px;
+			text-align: center;
+		}
+		.overlay .fa-code, .overlay .fa-play {
+			display: block;
+			font-size: 75px;
+			line-height: 110px;
+		}
+	.project-container img {
+		border: 1px solid #BDBDBD;
+		border-radius: 5px;
+		opacity: 0.9;
+	}
+	.project-container h4 {
+		border-radius: 5px 5px 0 0;
+		font-weight: bold;
+		text-align: center;
+		top: 0;
+	}
+	.project-container p {
+		border-radius: 0 0 5px 5px;
+		bottom: 0;
+		font-size: 0.8em;
+		margin: 0;
+		padding-left: 10px;
+	}
+	.project-container h4, .project-container p {
+		position: absolute;
+		background: #757575;
+		color: #FFFFFF;
+		height: 40px;
+		left: 0;
+		line-height: 40px;
+		width: 100%;
+	}
+
+.section-title {
+	font-weight: bold;
+}
+
+.skill-title {
+	margin-bottom: 20px;
+}
+
+.section-title, .skill-title {
+	display: inline-block;
+}
+
+
+/* Foundation Classes */
+.progress {
+	background: #B3E5FC;
+	margin-bottom: 50px;
+}
+	.progress .progress-meter {
+		background: #FF5722;
+	}
+
+.title-bar {
+	background: #03A9F4;
+	width: 100%;
+}
+	.title-bar a {
+		color: #fff;
+	}
+	.title-bar a:hover {
+		font-weight: bold;
+	}
+
+
+/* Animate.css Classes */
+.animated {
+	visibility: visible;
+}
