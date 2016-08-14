@@ -13,6 +13,19 @@ section {
 
 
 /* Custom Classes and IDs */
+@media only screen and (max-width: 1024px) {
+	#about {
+		padding: 0 5%;
+	}
+	#portfolio, #skills {
+		margin: 0 5%;
+	}
+	.project-container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 #about {
 	background-image: url('../images/background.jpg');
 	background-repeat: no-repeat;
@@ -124,6 +137,10 @@ section {
 
 
 /* Foundation Classes */
+.menu-icon {
+	float: right;
+}
+
 .progress {
 	background: #B3E5FC;
 	margin-bottom: 50px;
@@ -132,14 +149,25 @@ section {
 		background: #FF5722;
 	}
 
-.title-bar {
+.top-bar {
 	background: #03A9F4;
 	width: 100%;
 }
-	.title-bar a {
-		color: #fff;
+	.top-bar .top-bar-title {
+		color: #FFFFFF;
+		margin-left: 7px;
+		margin-top: 7px;
 	}
-	.title-bar a:hover {
+		.top-bar-title strong {
+			margin-left: 7px;
+		}
+	.top-bar ul {
+		background: #03A9F4;
+	}
+	.top-bar a {
+		color: #FFFFFF;
+	}
+	.top-bar a:hover {
 		font-weight: bold;
 	}
 
