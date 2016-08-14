@@ -63,7 +63,7 @@ section {
 }
 	.project-container .overlay {
 		position: absolute;
-		background: #B3E5FC;
+		background: #03A9F4;
 		display: none;
 		height: 220px;
 		left: 0;
@@ -102,7 +102,7 @@ section {
 	}
 	.project-container h4, .project-container p {
 		position: absolute;
-		background: #B3E5FC;
+		background: #03A9F4;
 		color: #FFFFFF;
 		height: 40px;
 		left: 0;
