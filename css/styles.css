@@ -34,6 +34,9 @@ section {
 	padding-bottom: 275px;
 	padding-top: 75px;
 }
+	#about a {
+		color: #FF5722;
+	}
 	#about p {
 		font-size: 1.5em;
 	}
