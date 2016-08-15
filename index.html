@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 
+<!-- Inspiration drawn from http://codepen.io/oneate7/pen/qdGprg and http://codepen.io/lveent/pen/gaZyaq?editors=0110 -->
+<!-- Created by Zachary Clemans - 2016 -->
+
 <head>
 	<title>Zac Clemans</title>
 	<meta charset="utf-8">
@@ -16,7 +19,7 @@
 
 <body>
 	<div data-sticky-container>
-		<div class="top-bar" data-sticky data-options="marginTop:0;" data-top-anchor="1">
+		<div class="top-bar" data-sticky data-options="marginTop:0;stickTo:top;stickyOn:small;" data-top-anchor="1">
 			<div class="top-bar-title">
 				<span data-responsive-toggle="responsive-menu" data-hide-for="medium">
 					<button class="menu-icon" type="button" data-toggle></button>
@@ -291,6 +294,10 @@
 					</a>
 				</div>
 			</div>
+		</div>
+		<div id="footer" class="row">
+			<span class="left">Created with love</span>
+			<span class="right">Zac Clemans - 2016</span>
 		</div>
 	</section>
 <script src="js/script.js"></script>

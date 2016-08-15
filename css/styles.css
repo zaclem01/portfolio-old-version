@@ -44,7 +44,16 @@ section {
 #contact {
 	background: #03A9F4;
 	color: #FFFFFF;
+	padding-bottom: 10px;
 }
+	#contact .left {
+		float: left;
+		padding-left: 10px;
+	}
+	#contact .right {
+		float: right;
+		padding-right: 10px;
+	}
 
 #skills {
 	border-bottom: 2px solid #BDBDBD;
