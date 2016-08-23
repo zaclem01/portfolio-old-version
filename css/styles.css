@@ -19,30 +19,20 @@ footer {
 		padding-right: 10px;
 	}
 
+h1 {
+	font-size: 3em; /* Keep font size same for mobile screen */
+}
+
 h2 {
 	font-size: 2.5em; /* Keep font size same for mobile screen */
 }
 
 section {
-	padding: 40px 0;
+	padding: 2em 0;
 }
 
 
 /* Custom Classes and IDs */
-@media only screen and (max-width: 1024px) {
-	/* Add padding on mobile screens and center */
-	#about {
-		padding: 0 5%;
-	}
-	#portfolio, #skills {
-		margin: 0 5%;
-	}
-	.project-container {
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
 #about {
 	background-image: url('../images/background.jpg');
 	background-attachment: fixed; /* Parallax effect */
@@ -206,4 +196,26 @@ section {
 /* Animate.css Classes */
 .animated {
 	visibility: visible; /* Hide until animation */
+}
+
+/* Media queries for medium and below screens */
+@media only screen and (max-width: 1024px) {
+	/* Add padding on mobile screens and center */
+	/* Remove background */
+	#about {
+		background: none;
+		border-bottom: 2px solid #BDBDBD;
+		padding: 0 5%;
+	}
+		#about img {
+			margin-bottom: 50px;
+		}
+	/* Add padding on mobile screens and center */
+	#portfolio, #skills {
+		margin: 0 5%;
+	}
+	.project-container {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
