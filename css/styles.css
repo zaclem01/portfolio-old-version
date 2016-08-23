@@ -20,7 +20,7 @@ footer {
 	}
 
 h2 {
-	font-size: 2.5em;
+	font-size: 2.5em; /* Keep font size same for mobile screen */
 }
 
 section {
@@ -30,6 +30,7 @@ section {
 
 /* Custom Classes and IDs */
 @media only screen and (max-width: 1024px) {
+	/* Add padding on mobile screens and center */
 	#about {
 		padding: 0 5%;
 	}
@@ -44,7 +45,7 @@ section {
 
 #about {
 	background-image: url('../images/background.jpg');
-	background-attachment: fixed;
+	background-attachment: fixed; /* Parallax effect */
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 150px;
@@ -95,7 +96,7 @@ section {
 		transition: font-size 0.5s;
 	}
 		.contact-icon:hover {
-			font-size: 128px;
+			font-weight: bold;
 		}
 
 
@@ -103,7 +104,7 @@ section {
 	position: relative;
 	margin-bottom: 40px;
 	margin-left: none;
-	visibility: hidden;
+	visibility: hidden; /* Hide until jQuery/animation.css reveal */
 	width: 300px;
 }
 	.project-container .overlay {
@@ -164,16 +165,18 @@ section {
 }
 
 .section-title, .skill-title {
-	display: inline-block;
+	display: inline-block; /* Stretch to full screen-width */
 }
 
 
 /* Foundation Classes */
 .progress {
+	/* Background bar */
 	background: #B3E5FC;
 	margin-bottom: 50px;
 }
 	.progress .progress-meter {
+		/* Fill bar */
 		background: #FF5722;
 	}
 
@@ -202,5 +205,5 @@ section {
 
 /* Animate.css Classes */
 .animated {
-	visibility: visible;
+	visibility: visible; /* Hide until animation */
 }
