@@ -207,8 +207,10 @@ section {
 		border-bottom: 2px solid #BDBDBD;
 		padding: 0 5%;
 	}
-		#about img {
+		#about .profile-img {
+			border: 2px solid #757575;
 			margin-bottom: 50px;
+			margin-top: 50px;
 		}
 	/* Add padding on mobile screens and center */
 	#portfolio, #skills {
