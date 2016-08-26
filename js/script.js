@@ -101,12 +101,3 @@ $('.project-container').on('mouseenter', function() {
 $('.project-container').on('mouseleave', function() {
 	$(this).find('.overlay').slideUp('fast');
 });
-
-// Project button animation
-$('.fa-code, .fa-play').on('mouseenter', function() {
-	$(this).css('font-size', '100px');
-});
-
-$('.fa-code, .fa-play').on('mouseleave', function() {
-	$(this).css('font-size', '70px');
-});

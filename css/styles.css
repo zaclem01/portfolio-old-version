@@ -118,6 +118,9 @@ section {
 			font-size: 75px;
 			line-height: 110px;
 		}
+			.overlay .fa-code:hover, .overlay .fa-play:hover {
+				font-size: 100px;
+			}
 	.project-container img {
 		border: 1px solid #BDBDBD;
 		border-radius: 5px;
